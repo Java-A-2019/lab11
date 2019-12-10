@@ -10,7 +10,7 @@
 
 ## Show effect
 
-![calculator_effect](./img/68747470733a2f2f692e696d6775722e636f6d2f5756634d7173672e676966.gif)
+![img](https://camo.githubusercontent.com/32e7d06e9f92c9b007276599748906a0b2c3b277/68747470733a2f2f692e696d6775722e636f6d2f5756634d7173672e676966)
 
 ## Usage
 1. 从 github clone 本次 lab
