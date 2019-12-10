@@ -8,6 +8,10 @@
 
 **DDL: 2019 年 12 月 15 日**
 
+## Show effect
+
+![calculator_effect](./img/68747470733a2f2f692e696d6775722e636f6d2f5756634d7173672e676966.gif)
+
 ## Usage
 1. 从 github clone 本次 lab
     
@@ -158,3 +162,9 @@ handleButtonAction() {
     </tr>
   </tbody>
 </table>
+
+## Submit
+
+以 `学号_姓名.文件` 类型的格式命名，如 `16302010027_毛浩楠.zip` 。上传至FTP
+
+    ftp://10.132.141.33/classes/19/191 程序设计A （陈荣华）/WORK_UPLOAD/lab11
