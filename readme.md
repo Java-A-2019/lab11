@@ -135,33 +135,32 @@ handleButtonAction() {
   <thead>
     <tr>
       <th>Method reference</th>
-      <th>&nbsp;</th>
       <th>Equivalent lambda expression</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><code class="java">String::valueOf</code></td>
-      <td></td>
       <td><code class="java">x -&gt; String.valueOf(x)</code></td>
     </tr>
     <tr>
       <td><code class="java">Object::toString</code></td>
-      <td></td>
       <td><code class="java">x -&gt; x.toString()</code></td>
     </tr>
     <tr>
       <td><code class="java">x::toString</code></td>
-      <td></td>
       <td><code class="java">() -&gt; x.toString()</code></td>
     </tr>
     <tr>
       <td><code class="java">ArrayList::<span class="keyword">new</span></code></td>
-      <td></td>
       <td><code class="java">() -&gt; <span class="keyword">new</span> ArrayList&lt;&gt;()</code></td>
     </tr>
   </tbody>
 </table>
+
+## Note
+
+本次 lab 代码的事件处理部分写法可以优化，大家在完成 PJ2 的时候尽量不要使用这种面条式的写法。
 
 ## Submit
 

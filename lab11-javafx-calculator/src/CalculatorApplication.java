@@ -78,43 +78,28 @@ public class CalculatorApplication extends Application {
         display = new TextField();
         display.setAlignment(Pos.CENTER_RIGHT);
         GridPane gridPane = new GridPane();
-        zero = new Button("0");
-        one = new Button("1");
-        two = new Button("2");
-        three = new Button("3");
-        four = new Button("4");
-        five = new Button("5");
-        six = new Button("6");
-        seven = new Button("7");
-        eight = new Button("8");
-        nine = new Button("9");
+        zero    = new Button("0");
+        one     = new Button("1");
+        two     = new Button("2");
+        three   = new Button("3");
+        four    = new Button("4");
+        five    = new Button("5");
+        six     = new Button("6");
+        seven   = new Button("7");
+        eight   = new Button("8");
+        nine    = new Button("9");
 
-        clear = new Button("CL");
-        plus = new Button("+");
-        minus = new Button("-");
-        mult = new Button("*");
-        div = new Button("/");
-        equals = new Button("=");
+        clear   = new Button("CL");
+        plus    = new Button("+");
+        minus   = new Button("-");
+        mult    = new Button("*");
+        div     = new Button("/");
+        equals  = new Button("=");
 
-        gridPane.add(one, 0, 0);
-        gridPane.add(two, 1, 0);
-        gridPane.add(three, 2, 0);
-        gridPane.add(plus, 3, 0);
-
-        gridPane.add(four, 0, 1);
-        gridPane.add(five, 1, 1);
-        gridPane.add(six, 2, 1);
-        gridPane.add(minus, 3, 1);
-
-        gridPane.add(seven, 0, 2);
-        gridPane.add(eight, 1, 2);
-        gridPane.add(nine, 2, 2);
-        gridPane.add(mult, 3, 2);
-
-        gridPane.add(zero, 0, 3);
-        gridPane.add(equals, 1, 3);
-        gridPane.add(clear, 2, 3);
-        gridPane.add(div, 3, 3);
+        gridPane.add(one,   0, 0); gridPane.add(two,    1, 0); gridPane.add(three, 2, 0); gridPane.add(plus,  3, 0);
+        gridPane.add(four,  0, 1); gridPane.add(five,   1, 1); gridPane.add(six,   2, 1); gridPane.add(minus, 3, 1);
+        gridPane.add(seven, 0, 2); gridPane.add(eight,  1, 2); gridPane.add(nine,  2, 2); gridPane.add(mult,  3, 2);
+        gridPane.add(zero,  0, 3); gridPane.add(equals, 1, 3); gridPane.add(clear, 2, 3); gridPane.add(div,   3, 3);
 
         vBox.getChildren().addAll(display, gridPane);
     }
